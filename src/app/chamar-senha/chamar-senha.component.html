@@ -1,0 +1,38 @@
+<div class="parent">
+    <div class="header">
+        <img src="https://www.einstein.br/PortalAssets/images/einstein.ico?rev=23" width="60px" height="60px">
+        <p class="top-text">Hospital Albert Eistein</p>
+        <!-- <a  class="top-text">HOSPITAL São Bernado</a> -->
+    </div>
+    <div class="menu">
+        <div class="timer">
+            <a class="menu-text">10:42</a>
+        </div>
+        <div class="date">
+            <a class="menu-text-sub">10/04/2023</a>
+        </div>
+        <div class="senhas">
+            <div *ngFor="let codigoSenha of codigoSenha; let indexOfelement=index;" class="senha-unidade">
+                <a class="menu-senha-gerada">{{codigoSenha}}</a>
+                <br>
+                <a class="menu-senha-gerada-texto">{{nomeDestino[indexOfelement]}}</a>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="chamarSenha" class="background">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0Ag1Q-CSGz0/oHg5SJYRHA0?autoplay=1&mute=1" frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+
+    <div *ngIf="!chamarSenha" class="background">
+        <div class="modal-chamar-senha">
+            <a class="modal-text-title">N04</a>
+            <br>
+            <a class="modal-text">Francisco - GUICHE 02</a>
+        </div>
+    </div>
+</div>
+<!-- <div class="bottom-text-div">
+    <a  class="bottom-text">10:43 Segunda-Feira</a>
+</div> -->
+    

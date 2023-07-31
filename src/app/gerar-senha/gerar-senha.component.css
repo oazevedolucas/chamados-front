@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+  }
+  
+
+.divPrincipal{
+    height: 80vh;
+}
+.background{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url("https://wallpapers.com/images/featured/healthcare-oco8w27tkw40cp90.jpg");
+    background-color: #ffffff;
+    align-content: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    width: 100%;
+    top: 6.5vh;
+    justify-content: center;
+    display: flex;
+}
+.top-text-div{
+    background-color: #7993c3;
+    width: 100%;
+    height: 70px;
+    padding-left: 1vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+.top-text{
+    padding-left: 2vh;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.center {
+    text-align: center;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.90);
+    -webkit-box-shadow: 0px 0px 42px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 42px -1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 42px -1px rgba(0,0,0,1);
+    border-radius: 40px;
+    margin-top: 15vh;
+}
+.bottom-text{
+    display: flex;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 26px;
+    color: #7993c3;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-transform: uppercase;
+    padding-left: 1vw;
+    margin-top: 14vh;
+}
+.bottom-text-div{
+    padding-top: 12vh;
+    padding-left: 1vw;
+}
+.title{
+    margin: 0 auto;
+    justify-content: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 4vh;
+    color: #7993c3;
+    text-decoration: none solid rgb(68, 68, 68);
+    padding-bottom: 12vh;
+    display: flex;
+}
+.myButton {
+    margin: 0 auto;
+    margin-top: 1vh;
+    width: 70%;
+    height: 8%;
+	background-color:#7993c3;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-weight: bold;
+	font-size:3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

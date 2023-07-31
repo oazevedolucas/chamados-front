@@ -1,0 +1,183 @@
+.parent {
+    width: 100%;
+    height: 1080px;
+}
+
+.background{ 
+    height: 90vh;
+    width: 79.8%;
+    float: left;
+    background-color: white;
+}
+.header{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100px;
+    width: 100%;
+    background-color:#7993c3;
+    border: 1px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+}
+.menu{
+    float: left;
+    border: 1px solid #ffffff;
+    height: 80vh;
+    width: 20%;
+}
+
+.top-text-div{
+    background-color: #7993c3;
+}
+.top-text{
+    padding-left: 10px;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.geral{
+    padding-top: 6vh;
+    padding-left: 0;
+}
+.left {
+    position: relative;
+    float: left;
+}
+.right {
+    padding-left: 7vw;
+    float: left;
+}
+.bottom-text{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 26px;
+    color: #7993c3;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-transform: uppercase;
+}
+.bottom-text-div{
+    position: absolute;
+    left: 1;
+    bottom: 0;
+}
+.senhaTitulo{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 42px;
+    color: #7993c3;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-transform: uppercase;
+}
+.senhasAntigas {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    color: #969696;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-transform: uppercase;
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.timer{
+    background-color: #103f96;
+    text-align: center;}
+.date{
+    height: 30px;
+    background-color: #0a0649;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid #ffffff;
+}
+.senhas{
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #01266b, #7993c3);
+    background-color: #1f2d47;
+    padding-top: 5px;
+    border: 1px solid #ffffff;
+}
+.senha-unidade{
+    background-color: rgba(255, 255, 255, 0.1) ;
+    -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    height: 120px;
+    margin: 40px 7px 30px 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+.modal-chamar-senha{
+    margin-left: 15vw;
+    margin-top: 15vh;
+    padding-top: 12vh;
+    height: 40vh;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+    box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.33);
+}
+.modal-text-title{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 6vw;
+    color: #7993c3;
+}
+.modal-text{
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 3vw;
+    color: #7993c3;
+}
+
+.menu-text{
+    padding-left: 1vw;
+    margin-top: 4vh;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.menu-text-sub{
+    padding-top: 10px;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.menu-senha{
+    padding-left: 5vw;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 50px;
+    color: #7993c3;
+}
+
+.menu-senha-gerada{
+    padding-left: 1vw;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.menu-senha-gerada-texto{
+    padding-left: 1vw;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
